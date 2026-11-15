@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=desvice-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header id="profile-header">
+        <div class="header-buttons">
+    <button id="theme-toggle">Dark Mode</button>
+    <button id="print-button">Print / Save as PDF</button>
+</div>
+        <h1>Refal Alahmadi</h1>
+        <p class="job-title">Information Technology Student</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+    </header>
+
+    <main class="cv-container">
+
+        <section id="about" class="cv-section">
+            <h2>About Me</h2>
+
+            <p>
+                I am an Information Technology student at King Abdulaziz University.
+                I enjoy learning new technologies and developing practical digital solutions.
+            </p>
+
+            <div id="more-about" hidden>
+                <p>
+                    I am interested in web development, software engineering,
+                    and Robotic Process Automation 
+                </p>
+            </div>
+
+            <button id="read-more">Show More</button>
+        </section>
+
+        <section id="skills" class="cv-section">
+            <h2>Skills</h2>
+
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="cv-section">
+            <h2>Projects</h2>
+            <div id="filter-buttons">
+                <button class="filter-btn" data-category="All">All</button>
+                <button class="filter-btn" data-category="Web">Web</button>
+                <button class="filter-btn" data-category="Programming">Programming</button>
+            </div>
+            <div id="projects-container"></div>
+        </section>
+
+        <section id="contact" class="cv-section">
+            <h2>Contact</h2>
+
+            <p>
+                Email:
+                <a href="mailto:student@example.com">Refalj8@gmail.com</a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="#">https://github.com/refalj</a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="#">LinkedIn Profile</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Refal</p>
+    </footer>
+
+</body>
+
+</html>
